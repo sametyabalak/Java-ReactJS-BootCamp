@@ -10,6 +10,7 @@ public class Course {
 	 System.out.println("Default Constructor çalıştı.");
  }
 
+ 	// with attribute constructor method
 	public Course(int courseId, String courseName, String instructorName) {
 		this.courseId = courseId;
 		this.courseName = courseName;

@@ -6,6 +6,6 @@ public class CourseManager {
 	}
 
 	public void deleteFromBasket(Course course) {
-		System.out.println("The product with an ID of " + course.courseId + " has been deleted from the basket.")
+		System.out.println("The product with an ID of " + course.courseId + " has been deleted from the basket.");
 	}
 }

@@ -16,9 +16,17 @@ public class Main {
 
 		Course[] courses = { firstCourse, secondCourse };
 
+		
+		//list of the courses and listing properties
 		for (Course course : courses) {
 			System.out.println(course.courseName + "\n" + course.instructorName + "\n---");
 		}
+		
+		CourseManager courseManager = new CourseManager();
+
+		// business class methods
+		courseManager.addToBasket(firstCourse);
+		courseManager.deleteFromBasket(firstCourse);
 	}
 
 }
