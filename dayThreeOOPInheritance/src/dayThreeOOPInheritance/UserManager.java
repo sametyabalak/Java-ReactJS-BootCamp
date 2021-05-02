@@ -6,7 +6,7 @@ public class UserManager {
 		System.out.println(user.getUserName() + " user logged in");
 	}
 
-	public void signUp(User user) {
+	public void logOut(User user) {
 		System.out.println(user.getUserName() + " user logged out");
 	}
 

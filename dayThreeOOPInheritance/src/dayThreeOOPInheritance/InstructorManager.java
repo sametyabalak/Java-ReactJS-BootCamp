@@ -8,7 +8,7 @@ public class InstructorManager extends UserManager {
 	}
 
 	@Override
-	public void signUp(User user) {
+	public void logOut(User user) {
 		System.out.println("A instructor named " + user.getUserName() + " has logged out");
 	}
 
